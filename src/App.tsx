@@ -1,9 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  const date1 = new Date(2019, 8, 23);
+  const date1 = new Date('2019-08-29T22:00:00');
 	const date2 = new Date();
 	const diff = Math.abs(date1.getTime() - date2.getTime());
 	const diffDays = Math.ceil(diff / (1000 * 3600 * 24));
