@@ -9,7 +9,7 @@
 }
 
 #main-img {
-  width: 60%;
   box-shadow: black 0px 6px 16px -2px;
   max-width: 1200px;
+  max-height: 700px;
 }
