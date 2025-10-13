@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/daysSinceUtahBeatBYU/static/css/main.8518153a.css",
-    "main.js": "/daysSinceUtahBeatBYU/static/js/main.d3ec18a7.js",
+    "main.css": "/daysSinceUtahBeatBYU/static/css/main.d5cfa4a2.css",
+    "main.js": "/daysSinceUtahBeatBYU/static/js/main.1e5cb2a7.js",
     "static/js/787.ead9eb3e.chunk.js": "/daysSinceUtahBeatBYU/static/js/787.ead9eb3e.chunk.js",
     "index.html": "/daysSinceUtahBeatBYU/index.html",
-    "main.8518153a.css.map": "/daysSinceUtahBeatBYU/static/css/main.8518153a.css.map",
-    "main.d3ec18a7.js.map": "/daysSinceUtahBeatBYU/static/js/main.d3ec18a7.js.map",
+    "main.d5cfa4a2.css.map": "/daysSinceUtahBeatBYU/static/css/main.d5cfa4a2.css.map",
+    "main.1e5cb2a7.js.map": "/daysSinceUtahBeatBYU/static/js/main.1e5cb2a7.js.map",
     "787.ead9eb3e.chunk.js.map": "/daysSinceUtahBeatBYU/static/js/787.ead9eb3e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8518153a.css",
-    "static/js/main.d3ec18a7.js"
+    "static/css/main.d5cfa4a2.css",
+    "static/js/main.1e5cb2a7.js"
   ]
 }
