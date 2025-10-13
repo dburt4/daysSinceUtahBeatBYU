@@ -10,7 +10,14 @@ function App() {
   return (
     <div className="App">
       <h2 id="title">It has been {diffDays} days since Utah beat BYU</h2>
-			<img id="main-img" alt="" src="https://dburtdevtest.yul1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_vNuxA9VSAxTQ7dK"/>
+			{(() => {
+				const images = [
+					"https://dburtdevtest.yul1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_vNuxA9VSAxTQ7dK",
+					"https://dburtdevtest.yul1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_whtBf9Qhe3a66gB"
+				];
+				const randomIndex = Math.floor(Math.random() * images.length);
+				return <img id="main-img" alt="" src={images[randomIndex]} />;
+			})()}
     </div>
   );
 }
