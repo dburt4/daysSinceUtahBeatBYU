@@ -13,10 +13,16 @@ function App() {
 			{(() => {
 				const images = [
 					"https://dburtdevtest.yul1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_vNuxA9VSAxTQ7dK",
+					"https://dburtdevtest.yul1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_Ejg1xz4X1A2Yynp",
+					"https://dburtdevtest.yul1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_RieGxK8sXVth14t",
+					"https://dburtdevtest.yul1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_REZMuay9aJxnA5O",
 					"https://dburtdevtest.yul1.qualtrics.com/ControlPanel/Graphic.php?IM=IM_whtBf9Qhe3a66gB"
 				];
-				const randomIndex = Math.floor(Math.random() * images.length);
-				return <img id="main-img" alt="" src={images[randomIndex]} />;
+				// Deterministic selection based on the hour of the day
+				const now = new Date();
+				const hour = now.getHours();
+				const index = hour % images.length;
+				return <img id="main-img" alt="" src={images[index]} />;
 			})()}
     </div>
   );
